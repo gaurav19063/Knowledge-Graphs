@@ -1,0 +1,1138 @@
+@prefix ex:    <http://example.org/> .
+
+<rdfs:tvshow>  <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <rdfs: type> .
+
+<rdfs: movie>  <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <rdfs: type> .
+
+<rdfs: type>  a  <http://www.w3.org/2000/01/rdf-schema#Class> .
+<ex:Norm of the North: King Sized Adventure>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          "Alan Marriott" , " Jonathan Holmes" , " Lee Tockar" , " Brian Dobson" , " Jennifer Cameron" , " Andrew Toth" , " Lisa Durupt" , " Michael Dobson" , " Maya Kay" , " Cole Howard" ;
+        <ex:country>       " South Korea" , "United States" , " India" , " China" ;
+        <ex:date_added>    "September 9" , " 2019" ;
+        <ex:description>   "Before planning an awesome wedding for his grandfather" , " a polar bear king must take back a stolen artifact from an evil archaeologist first." ;
+        <ex:director>      "Richard Finn" , " Tim Maltby" ;
+        <ex:duration>      "90 min" ;
+        <ex:listed_in>     "Children & Family Movies" , " Comedies" ;
+        <ex:rating>        "TV-PG" ;
+        <ex:release_year>  "2019" ;
+        <ex:type>          "Movie" .
+<ex:Jandino: Whatever it Takes>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          "Jandino Asporaat" ;
+        <ex:country>       "United Kingdom" ;
+        <ex:date_added>    " 2016" , "September 9" ;
+        <ex:description>   "Jandino Asporaat riffs on the challenges of raising kids and serenades the audience with a rousing rendition of \"Sex on Fire\" in his comedy show." ;
+        <ex:director>      "" ;
+        <ex:duration>      "94 min" ;
+        <ex:listed_in>     "Stand-Up Comedy" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2016" ;
+        <ex:type>          "Movie" .
+<ex:Transformers Prime>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          " Josh Keaton" , " Ernie Hudson" , " Steve Blum" , " Frank Welker" , " Will Friedle" , " Jeffrey Combs" , " Sumalee Montano" , " Daran Norris" , " Tania Gunadi" , " Kevin Michael Richardson" , "Peter Cullen" , " Andy Pessoa" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    "September 8" , " 2018" ;
+        <ex:description>   " the Autobots once again protect Earth from the onslaught of the Decepticons and their leader" , " Megatron." , "With the help of three human allies" ;
+        <ex:director>      "" ;
+        <ex:duration>      "1 Season" ;
+        <ex:listed_in>     "Kids' TV" ;
+        <ex:rating>        "TV-Y7-FV" ;
+        <ex:release_year>  "2013" ;
+        <ex:type>          "TV Show" .
+<ex:Transformers: Robots in Disguise>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          " Darren Criss" , " Khary Payton" , " Constance Zimmer" , " Stuart Allan" , " Mitchell Whitfield" , " Ted McGinley" , "Will Friedle" , " Peter Cullen" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    " 2018" , "September 8" ;
+        <ex:description>   "When a prison ship crash unleashes hundreds of Decepticons on Earth" , " Bumblebee leads a new Autobot force to protect humankind." ;
+        <ex:director>      "" ;
+        <ex:duration>      "1 Season" ;
+        <ex:listed_in>     "Kids' TV" ;
+        <ex:rating>        "TV-Y7" ;
+        <ex:release_year>  "2016" ;
+        <ex:type>          "TV Show" .
+<ex:#realityhigh>  a       <rdfs:tvshow> ;
+        <ex:cast>          " John Michael Higgins" , " Jake Borelli" , "Nesta Cooper" , " Kid Ink" , " Anne Winters" , " Yousef Erakat" , " Rebekah Graf" , " Kate Walsh" , " Patrick Davis" , " Peter Gilroy" , " Keith Powers" , " Alicia Sanz" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    "September 8" , " 2017" ;
+        <ex:description>   "When nerdy high schooler Dani finally attracts the interest of her longtime crush" , " she lands in the cross hairs of his ex" , " a social media celebrity." ;
+        <ex:director>      "Fernando Lebrija" ;
+        <ex:duration>      "99 min" ;
+        <ex:listed_in>     "Comedies" ;
+        <ex:rating>        "TV-14" ;
+        <ex:release_year>  "2017" ;
+        <ex:type>          "Movie" .
+<ex:Apaches>  a            <rdfs:tvshow> ;
+        <ex:cast>          " Lucía Jiménez" , " Verónica Echegui" , " Claudia Traisac" , " Eloy Azorín" , "Alberto Ammann" ;
+        <ex:country>       "Spain" ;
+        <ex:date_added>    " 2017" , "September 8" ;
+        <ex:description>   "A young journalist is forced into a life of crime to save his father and family in this series based on the novel by Miguel Sáez Carral." ;
+        <ex:director>      "" ;
+        <ex:duration>      "1 Season" ;
+        <ex:listed_in>     " Spanish-Language TV Shows" , "Crime TV Shows" , " International TV Shows" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2016" ;
+        <ex:type>          "TV Show" .
+<ex:Automata>  a           <rdfs:tvshow> ;
+        <ex:cast>          " David Ryall" , " Andy Nyman" , " Birgitte Hjort Sørensen" , "Antonio Banderas" , " Melanie Griffith" , " Robert Forster" , " Dylan McDermott" , " Tim McInnerny" , " Christa Campbell" ;
+        <ex:country>       " Spain" , " Canada" , " United States" , "Bulgaria" ;
+        <ex:date_added>    "September 8" , " 2017" ;
+        <ex:description>   " an insurance adjuster for a tech company investigates a robot killed for violating protocol and discovers a global conspiracy." , "In a dystopian future" ;
+        <ex:director>      "Gabe Ibáñez" ;
+        <ex:duration>      "110 min" ;
+        <ex:listed_in>     "International Movies" , " Thrillers" , " Sci-Fi & Fantasy" ;
+        <ex:rating>        "R" ;
+        <ex:release_year>  "2014" ;
+        <ex:type>          "Movie" .
+<ex:Fabrizio Copano: Solo pienso en mi>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          "Fabrizio Copano" ;
+        <ex:country>       "Chile" ;
+        <ex:date_added>    " 2017" , "September 8" ;
+        <ex:description>   " family WhatsApp groups and more." , "Fabrizio Copano takes audience participation to the next level in this stand-up set while reflecting on sperm banks" ;
+        <ex:director>      "Rodrigo Toro" , " Francisco Schultz" ;
+        <ex:duration>      "60 min" ;
+        <ex:listed_in>     "Stand-Up Comedy" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2017" ;
+        <ex:type>          "Movie" .
+<ex:Fire Chasers>  a       <rdfs:tvshow> ;
+        <ex:cast>          "" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    "September 8" , " 2017" ;
+        <ex:description>   " brave backcountry firefighters race to put out the flames" , "As California's 2016 fire season rages" , " protect homes and save lives in this docuseries." ;
+        <ex:director>      "" ;
+        <ex:duration>      "1 Season" ;
+        <ex:listed_in>     " Science & Nature TV" , "Docuseries" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2017" ;
+        <ex:type>          "TV Show" .
+<ex:Good People>  a        <rdfs:tvshow> ;
+        <ex:cast>          " Sam Spruell" , " Anna Friel" , " Michael Jibson" , " Oliver Dimsdale" , " Diarmaid Murtagh" , " Diana Hardcastle" , " Thomas Arnold" , " Omar Sy" , "James Franco" , " Tom Wilkinson" , " Kate Hudson" ;
+        <ex:country>       " United Kingdom" , "United States" , " Denmark" , " Sweden" ;
+        <ex:date_added>    "September 8" , " 2017" ;
+        <ex:description>   "A struggling couple can't believe their luck when they find a stash of money in the apartment of a neighbor who was recently murdered." ;
+        <ex:director>      "Henrik Ruben Genz" ;
+        <ex:duration>      "90 min" ;
+        <ex:listed_in>     " Thrillers" , "Action & Adventure" ;
+        <ex:rating>        "R" ;
+        <ex:release_year>  "2014" ;
+        <ex:type>          "Movie" .
+<ex:Joaquín Reyes: Una y no más>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          "Joaquín Reyes" ;
+        <ex:country>       "" ;
+        <ex:date_added>    " 2017" , "September 8" ;
+        <ex:description>   " royalty and more." , "Comedian and celebrity impersonator Joaquín Reyes decides to be his zesty self for a night of stories about buses" , " bathroom habits" ;
+        <ex:director>      "José Miguel Contreras" ;
+        <ex:duration>      "78 min" ;
+        <ex:listed_in>     "Stand-Up Comedy" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2017" ;
+        <ex:type>          "Movie" .
+<ex:Kidnapping Mr. Heineken>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          " Thomas Cocquerel" , " Sam Worthington" , " Anthony Hopkins" , " David Dencik" , " Jemima West" , "Jim Sturgess" , " Ryan Kwanten" , " Mark van Eeuwen" ;
+        <ex:country>       " United States" , " Belgium" , "Netherlands" , " United Kingdom" ;
+        <ex:date_added>    "September 8" , " 2017" ;
+        <ex:description>   "When beer magnate Alfred \"Freddy\" Heineken is kidnapped in 1983" , " his abductors make the largest ransom demand in history." ;
+        <ex:director>      "Daniel Alfredson" ;
+        <ex:duration>      "95 min" ;
+        <ex:listed_in>     " Dramas" , " International Movies" , "Action & Adventure" ;
+        <ex:rating>        "R" ;
+        <ex:release_year>  "2015" ;
+        <ex:type>          "Movie" .
+<ex:Krish Trish and Baltiboy>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          "Damandeep Singh Baggan" , " Smita Malhotra" , " Baba Sehgal" ;
+        <ex:country>       "" ;
+        <ex:date_added>    "September 8" , " 2017" ;
+        <ex:description>   " Kerala and Punjab." , " including a monkey" , " narrate folktales from the Indian regions of Rajasthan" , " cat and donkey" , "A team of minstrels" ;
+        <ex:director>      "" ;
+        <ex:duration>      "58 min" ;
+        <ex:listed_in>     "Children & Family Movies" ;
+        <ex:rating>        "TV-Y7" ;
+        <ex:release_year>  "2009" ;
+        <ex:type>          "Movie" .
+<ex:Krish Trish and Baltiboy: Battle of Wits>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          " Smita Malhotra" , " Baba Sehgal" , "Damandeep Singh Baggan" , " Deepak Chachra" ;
+        <ex:country>       "" ;
+        <ex:date_added>    " 2017" , "September 8" ;
+        <ex:description>   " a lion of his throne and a brother of his inheritance in these three stories of deception and justice." , "An artisan is cheated of his payment" ;
+        <ex:director>      " Tilak Shetty" , "Munjal Shroff" ;
+        <ex:duration>      "62 min" ;
+        <ex:listed_in>     "Children & Family Movies" ;
+        <ex:rating>        "TV-Y7" ;
+        <ex:release_year>  "2013" ;
+        <ex:type>          "Movie" .
+<ex:Krish Trish and Baltiboy: Best Friends Forever>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          " Deepak Chachra" , "Damandeep Singh Baggan" , " Smita Malhotra" ;
+        <ex:country>       "" ;
+        <ex:date_added>    " 2017" , "September 8" ;
+        <ex:description>   "A cat" , " monkey and donkey team up to narrate folktales about friendship from Northeast India" , " and the Indian regions of Bihar and Rajasthan." ;
+        <ex:director>      "Munjal Shroff" , " Tilak Shetty" ;
+        <ex:duration>      "65 min" ;
+        <ex:listed_in>     "Children & Family Movies" ;
+        <ex:rating>        "TV-Y" ;
+        <ex:release_year>  "2016" ;
+        <ex:type>          "Movie" .
+<ex:Krish Trish and Baltiboy: Comics of India>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          " Smita Malhotra" , " Baba Sehgal" , "Damandeep Singh Baggan" ;
+        <ex:country>       "" ;
+        <ex:date_added>    "September 8" , " 2017" ;
+        <ex:description>   "In three comic-strip-style tales" , " a boy tries to sell wisdom" , " and a king assigns impossible tasks to his minister." , " a demon is released from captivity" ;
+        <ex:director>      "Tilak Shetty" ;
+        <ex:duration>      "61 min" ;
+        <ex:listed_in>     "Children & Family Movies" ;
+        <ex:rating>        "TV-Y7" ;
+        <ex:release_year>  "2012" ;
+        <ex:type>          "Movie" .
+<ex:Krish Trish and Baltiboy: Oversmartness Never Pays>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          "Rishi Gambhir" , " Smita Malhotra" , " Deepak Chachra" ;
+        <ex:country>       "" ;
+        <ex:date_added>    " 2017" , "September 8" ;
+        <ex:description>   " West Bengal and Maharashtra." , " monkey and donkey learn the consequences of cheating through stories from the Indian regions of Rajasthan" , "A cat" ;
+        <ex:director>      "Tilak Shetty" ;
+        <ex:duration>      "65 min" ;
+        <ex:listed_in>     "Children & Family Movies" ;
+        <ex:rating>        "TV-Y7" ;
+        <ex:release_year>  "2017" ;
+        <ex:type>          "Movie" .
+<ex:Krish Trish and Baltiboy: Part II>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          " Smita Malhotra" , " Baba Sehgal" , "Damandeep Singh Baggan" ;
+        <ex:country>       "" ;
+        <ex:date_added>    " 2017" , "September 8" ;
+        <ex:description>   " two monkeys' foolishness and a villager's encounter with a demon." , "Animal minstrels narrate stories about a monkey's friendship with a crocodile" ;
+        <ex:director>      "" ;
+        <ex:duration>      "58 min" ;
+        <ex:listed_in>     "Children & Family Movies" ;
+        <ex:rating>        "TV-Y7" ;
+        <ex:release_year>  "2010" ;
+        <ex:type>          "Movie" .
+<ex:Krish Trish and Baltiboy: The Greatest Trick>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          "Damandeep Singh Baggan" , " Smita Malhotra" , " Baba Sehgal" ;
+        <ex:country>       "" ;
+        <ex:date_added>    " 2017" , "September 8" ;
+        <ex:description>   " and a kind man who loses everything." , " two greedy courtiers" , "The consequences of trickery are explored in stories involving an inconsiderate husband" ;
+        <ex:director>      " Tilak Shetty" , "Munjal Shroff" ;
+        <ex:duration>      "60 min" ;
+        <ex:listed_in>     "Children & Family Movies" ;
+        <ex:rating>        "TV-Y7" ;
+        <ex:release_year>  "2013" ;
+        <ex:type>          "Movie" .
+<ex:Love>  a               <rdfs:tvshow> ;
+        <ex:cast>          " Isabelle Nicou" , " Benoît Debie" , " Déborah Révy" , "Karl Glusman" , " Ugo Fox" , " Gaspar Noé" , " Juan Saavedra" , " Vincent Maraval" , " Klara Kristin" , " Aomi Muyock" ;
+        <ex:country>       " Belgium" , "France" ;
+        <ex:date_added>    "September 8" , " 2017" ;
+        <ex:description>   "A man in an unsatisfying marriage recalls the details of an intense past relationship with an ex-girlfriend when he gets word that she may be missing." ;
+        <ex:director>      "Gaspar Noé" ;
+        <ex:duration>      "135 min" ;
+        <ex:listed_in>     "Cult Movies" , " Independent Movies" , " Dramas" ;
+        <ex:rating>        "NR" ;
+        <ex:release_year>  "2015" ;
+        <ex:type>          "Movie" .
+<ex:Manhattan Romance>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          " Louis Cancelmi" , "Tom O'Brien" , " Zach Grenier" , " Caitlin Fitzgerald" , " Gaby Hoffmann" , " Katherine Waterston" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    " 2017" , "September 8" ;
+        <ex:description>   "A filmmaker working on a documentary about love in modern Manhattan becomes personally entangled in the romantic lives of his subjects." ;
+        <ex:director>      "Tom O'Brien" ;
+        <ex:duration>      "98 min" ;
+        <ex:listed_in>     " Independent Movies" , " Romantic Movies" , "Comedies" ;
+        <ex:rating>        "TV-14" ;
+        <ex:release_year>  "2014" ;
+        <ex:type>          "Movie" .
+<ex:Moonwalkers>  a        <rdfs:tvshow> ;
+        <ex:cast>          " Erika Sainte" , " Tom Audenaert" , " Kevin Bishop" , " Robert Sheehan" , " Rupert Grint" , " Stephen Campbell Moore" , " Eric Lampaert" , "Ron Perlman" ;
+        <ex:country>       " Belgium" , "France" ;
+        <ex:date_added>    "September 8" , " 2017" ;
+        <ex:description>   "A brain-addled war vet" , " a failing band manager and a Stanley Kubrick impersonator help the CIA construct an epic scam by faking the 1969 moon landing." ;
+        <ex:director>      "Antoine Bardou-Jacquet" ;
+        <ex:duration>      "96 min" ;
+        <ex:listed_in>     " International Movies" , "Action & Adventure" , " Comedies" ;
+        <ex:rating>        "R" ;
+        <ex:release_year>  "2015" ;
+        <ex:type>          "Movie" .
+<ex:Rolling Papers>  a     <rdfs:tvshow> ;
+        <ex:cast>          "" ;
+        <ex:country>       "United States" , " Uruguay" ;
+        <ex:date_added>    "September 8" , " 2017" ;
+        <ex:description>   " The Denver Post breaks new ground with a section dedicated to cannabis culture." , "As the newspaper industry takes a hit" ;
+        <ex:director>      "Mitch Dickman" ;
+        <ex:duration>      "79 min" ;
+        <ex:listed_in>     "Documentaries" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2015" ;
+        <ex:type>          "Movie" .
+<ex:Stonehearst Asylum>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          " Brendan Gleeson" , " Ben Kingsley" , " Jim Sturgess" , " Michael Caine" , "Kate Beckinsale" , " David Thewlis" , " Sinéad Cusack" , " Sophie Kennedy Clark" , " Jason Flemyng" , " Edmund Kingsley" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    "September 8" , " 2017" ;
+        <ex:description>   "In 1899" , " a young doctor arrives at an asylum for an apprenticeship and becomes suspicious of his mentor's methods while falling for a female patient." ;
+        <ex:director>      "Brad Anderson" ;
+        <ex:duration>      "113 min" ;
+        <ex:listed_in>     "Horror Movies" , " Thrillers" ;
+        <ex:rating>        "PG-13" ;
+        <ex:release_year>  "2014" ;
+        <ex:type>          "Movie" .
+<ex:The Runner>  a         <rdfs:tvshow> ;
+        <ex:cast>          " Peter Fonda" , " Wendell Pierce" , " Dana Gourrier" , " Bryan Batt" , "Nicolas Cage" , " Connie Nielsen" , " Sarah Paulson" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    "September 8" , " 2017" ;
+        <ex:description>   "A New Orleans politician finds his idealistic plans for rebuilding after a toxic oil spill unraveling thanks to a sex scandal." ;
+        <ex:director>      "Austin Stark" ;
+        <ex:duration>      "90 min" ;
+        <ex:listed_in>     "Dramas" , " Independent Movies" ;
+        <ex:rating>        "R" ;
+        <ex:release_year>  "2015" ;
+        <ex:type>          "Movie" .
+<ex:6 Years>  a            <rdfs:tvshow> ;
+        <ex:cast>          " Ben Rosenfield" , " Joshua Leonard" , " Jason Newman" , " Peter Vack" , " Jennifer Lafleur" , " Molly McMichael" , "Taissa Farmiga" , " Dana Wheeler-Nicholson" , " Lindsay Burdge" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    "September 8" , " 2015" ;
+        <ex:description>   "As a volatile young couple who have been together for six years approach college graduation" , " unexpected career opportunities threaten their future." ;
+        <ex:director>      "Hannah Fidell" ;
+        <ex:duration>      "80 min" ;
+        <ex:listed_in>     "Dramas" , " Romantic Movies" , " Independent Movies" ;
+        <ex:rating>        "NR" ;
+        <ex:release_year>  "2015" ;
+        <ex:type>          "Movie" .
+<ex:Castle of Stars>  a    <rdfs:tvshow> ;
+        <ex:cast>          " Yong Armchair" , " Akarat Nimitchai" , " Jintanutda Lummakanon" , " Ornjira Lamwilai" , " Nattapong Chartpong" , "Chaiyapol Pupart" , " Worrawech Danuwong" , " Keerati Mahapreukpong" , " Kornpassorn Duaysianklao" ;
+        <ex:country>       "" ;
+        <ex:date_added>    "September 7" , " 2018" ;
+        <ex:description>   "As four couples with different lifestyles go through the ebbs and flows of joy and sorrow" , " each must learn how to live a good life." ;
+        <ex:director>      "" ;
+        <ex:duration>      "1 Season" ;
+        <ex:listed_in>     " TV Comedies" , " Romantic TV Shows" , "International TV Shows" ;
+        <ex:rating>        "TV-14" ;
+        <ex:release_year>  "2015" ;
+        <ex:type>          "TV Show" .
+<ex:City of Joy>  a        <rdfs:tvshow> ;
+        <ex:cast>          "" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    "September 7" , " 2018" ;
+        <ex:description>   " a center that helps them regain a sense of self and empowerment." , "Women who've been sexually brutalized in war-torn Congo begin to heal at City of Joy" ;
+        <ex:director>      "Madeleine Gavin" ;
+        <ex:duration>      "77 min" ;
+        <ex:listed_in>     "Documentaries" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2018" ;
+        <ex:type>          "Movie" .
+<ex:First and Last>  a     <rdfs:tvshow> ;
+        <ex:cast>          "" ;
+        <ex:country>       "" ;
+        <ex:date_added>    "September 7" , " 2018" ;
+        <ex:description>   "Take an intimate look at the emotionally charged first and last days of new and soon-to-be released inmates at Georgia's Gwinnett County Jail." ;
+        <ex:director>      "" ;
+        <ex:duration>      "1 Season" ;
+        <ex:listed_in>     "Docuseries" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2018" ;
+        <ex:type>          "TV Show" .
+<ex:Laddaland>  a          <rdfs:tvshow> ;
+        <ex:cast>          "Saharat Sangkapreecha" , " Sahajak Boonthanakit" , " Sutatta Udomsilp" , " Pok Piyatida Woramusik" , " Deuntem Salitul" , " Athipich Chutiwatkajornchai" ;
+        <ex:country>       "Thailand" ;
+        <ex:date_added>    " 2018" , "September 7" ;
+        <ex:description>   "When a family moves into an upscale housing development" , " they encounter a series of paranormal events that drive them to the edge of insanity." ;
+        <ex:director>      "Sopon Sukdapisit" ;
+        <ex:duration>      "112 min" ;
+        <ex:listed_in>     "Horror Movies" , " International Movies" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2011" ;
+        <ex:type>          "Movie" .
+<ex:Next Gen>  a           <rdfs:tvshow> ;
+        <ex:cast>          " Jason Sudeikis" , " Constance Wu" , " Charlyne Yi" , " Michael Peña" , " David Cross" , "John Krasinski" ;
+        <ex:country>       "China" , " Canada" , " United States" ;
+        <ex:date_added>    "September 7" , " 2018" ;
+        <ex:description>   "When lonely Mai forms an unlikely bond with a top-secret robot" , " they embark on an intense" , " action-packed adventure to foil the plot of a vicious villain." ;
+        <ex:director>      " Joe Ksander" , "Kevin R. Adams" ;
+        <ex:duration>      "106 min" ;
+        <ex:listed_in>     " Sci-Fi & Fantasy" , " Comedies" , "Children & Family Movies" ;
+        <ex:rating>        "TV-PG" ;
+        <ex:release_year>  "2018" ;
+        <ex:type>          "Movie" .
+<ex:Sierra Burgess Is A Loser>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          "Shannon Purser" , " Alan Ruck" , " Giorgia Whigham" , " Kristine Froseth" , " Alice Lee" , " RJ Cyler" , " Lea Thompson" , " Loretta Devine" , " Mary Pat Gleason" , " Chrissy Metz" , " Noah Centineo" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    " 2018" , "September 7" ;
+        <ex:description>   "A wrong-number text sparks a virtual romance between a smart but unpopular teen and a sweet jock who thinks he's talking to a gorgeous cheerleader." ;
+        <ex:director>      "Ian Samuels" ;
+        <ex:duration>      "106 min" ;
+        <ex:listed_in>     "Comedies" , " Romantic Movies" ;
+        <ex:rating>        "PG-13" ;
+        <ex:release_year>  "2018" ;
+        <ex:type>          "Movie" .
+<ex:The Most Assassinated Woman in the World>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          " Michel Fau" , " André Wilms" , " Eric Godon" , " Niels Schneider" , " Sissi Duparc" , " Julie Recoing" , " Jean-Michel Balthazar" , " Maya Coline" , "Anna Mouglalis" , " Constance Dollé" ;
+        <ex:country>       " United States" , "Belgium" , " United Kingdom" ;
+        <ex:date_added>    " 2018" , "September 7" ;
+        <ex:description>   "In 1930s Paris" , " an actress famous for her gory death scenes at the Grand Guignol Theater contends with a mysterious stalker and ghosts from her past." ;
+        <ex:director>      "Franck Ribière" ;
+        <ex:duration>      "102 min" ;
+        <ex:listed_in>     "Dramas" , " International Movies" , " Thrillers" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2018" ;
+        <ex:type>          "Movie" .
+<ex:Cézanne et moi>  a     <rdfs:tvshow> ;
+        <ex:cast>          " Laurent Stocker" , " Sabine Azéma" , " Déborah François" , " Guillaume Gallienne" , " Alice Pol" , " Isabelle Candelier" , " Freya Mavor" , "Guillaume Canet" ;
+        <ex:country>       " France" , "Belgium" ;
+        <ex:date_added>    "September 7" , " 2017" ;
+        <ex:description>   "This historical drama explores the long and often volatile friendship of painter Paul Cézanne and writer Émile Zola" , " who first met as schoolboys." ;
+        <ex:director>      "Daniele Thompson" ;
+        <ex:duration>      "114 min" ;
+        <ex:listed_in>     "Dramas" , " International Movies" , " Independent Movies" ;
+        <ex:rating>        "R" ;
+        <ex:release_year>  "2016" ;
+        <ex:type>          "Movie" .
+<ex:Archibald's Next Big Thing>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          " Adam Pally" , " Rosamund Pike" , " Kari Wahlgren" , " Chelsea Kane" , " Jordan Fisher" , "Tony Hale" ;
+        <ex:country>       "" ;
+        <ex:date_added>    "September 6" , " 2019" ;
+        <ex:description>   " life's an adventure!" , " but he never forgets to have fun. After all" , "Happy-go-lucky chicken Archibald may not remember to do his chores" ;
+        <ex:director>      "" ;
+        <ex:duration>      "1 Season" ;
+        <ex:listed_in>     "Kids' TV" , " TV Comedies" ;
+        <ex:rating>        "TV-Y7" ;
+        <ex:release_year>  "2019" ;
+        <ex:type>          "TV Show" .
+<ex:Article 15>  a         <rdfs:tvshow> ;
+        <ex:cast>          " Mohammed Zeeshan Ayyub" , " Aakash Dabhade" , " Sayani Gupta" , " Manoj Pahwa" , " Kumud Mishra" , " Nassar" , " Sushil Pandey" , " Subhrajyoti Barat" , " Isha Talwar" , "Ayushmann Khurrana" ;
+        <ex:country>       "India" ;
+        <ex:date_added>    "September 6" , " 2019" ;
+        <ex:description>   "The grim realities of caste discrimination come to light as an entitled but upright city cop ventures into India’s heartland to investigate a murder." ;
+        <ex:director>      "Anubhav Sinha" ;
+        <ex:duration>      "125 min" ;
+        <ex:listed_in>     "Dramas" , " International Movies" , " Thrillers" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2019" ;
+        <ex:type>          "Movie" .
+<ex:Care of Kancharapalem>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          " Radha Bessy" , "Subba Rao Vepada" , " Kesava Karri" , " Nithyasri Goru" , " Karthik Rathnam" , " Mohan Bhagath" , " Praveena Paruchuri" , " Praneetha Patnaik" ;
+        <ex:country>       "" ;
+        <ex:date_added>    " 2019" , "September 6" ;
+        <ex:description>   " four love stories spanning age" , "From a schoolboy’s crush to a middle-aged bachelor’s office romance" , " religion and status unfold in a small Indian town." ;
+        <ex:director>      "Maha Venkatesh" ;
+        <ex:duration>      "142 min" ;
+        <ex:listed_in>     " Independent Movies" , "Comedies" , " Dramas" ;
+        <ex:rating>        "TV-14" ;
+        <ex:release_year>  "2018" ;
+        <ex:type>          "Movie" .
+<ex:Ee Nagaraniki Emaindi>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          " Anisha Ambrose" , " Simran Choudhary" , "Vishwaksen Naidu" , " Sushanth Reddy" , " Venkatesh Kakumanu" , " Abhinav Gomatam" ;
+        <ex:country>       "India" ;
+        <ex:date_added>    "September 6" , " 2019" ;
+        <ex:description>   "In Goa and in desperate need of cash" , " four childhood friends get another shot at making their long-abandoned dreams of becoming filmmakers come true." ;
+        <ex:director>      "Tharun Bhascker" ;
+        <ex:duration>      "133 min" ;
+        <ex:listed_in>     "Comedies" , " International Movies" ;
+        <ex:rating>        "TV-14" ;
+        <ex:release_year>  "2018" ;
+        <ex:type>          "Movie" .
+<ex:Kill Me If You Dare>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          " Seda Bakan" , " Ali Yoğurtçuoğlu" , "Murat Boz" , " Açelya Topaloğlu" , " Yosi Mizrahi" , " Dilşad Şimşek" , " Özgür Emre Yıldırım" , " Seda Güven" ;
+        <ex:country>       "" ;
+        <ex:date_added>    "September 6" , " 2019" ;
+        <ex:description>   "Bogged down with money problems" , " a couple grows cautious of each other but hit the lottery and decide to stay together – till death do they part." ;
+        <ex:director>      "Şenol Sönmez" ;
+        <ex:duration>      "100 min" ;
+        <ex:listed_in>     " Romantic Movies" , "Comedies" , " International Movies" ;
+        <ex:rating>        "TV-14" ;
+        <ex:release_year>  "2019" ;
+        <ex:type>          "Movie" .
+<ex:The Spy>  a            <rdfs:tvshow> ;
+        <ex:cast>          " Alexander Siddig" , "Sacha Baron Cohen" , " Noah Emmerich" , " Hadar Ratzon Rotem" , " Waleed Zuaiter" , " Nassim Lyes" ;
+        <ex:country>       "France" ;
+        <ex:date_added>    " 2019" , "September 6" ;
+        <ex:description>   "In the 1960s" , " Israeli clerk-turned-secret agent Eli Cohen goes deep undercover inside Syria on a perilous" , " years-long mission to spy for Mossad." ;
+        <ex:director>      "" ;
+        <ex:duration>      "1 Season" ;
+        <ex:listed_in>     "International TV Shows" , " TV Thrillers" , " TV Dramas" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2019" ;
+        <ex:type>          "TV Show" .
+<ex:Hell and Back>  a      <rdfs:tvshow> ;
+        <ex:cast>          " Rob Riggle" , " T.J. Miller" , " John Farley" , " Maria Bamford" , " Danny McBride" , " Jennifer Coolidge" , " Bob Odenkirk" , " Mila Kunis" , "Nick Swardson" , " Susan Sarandon" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    " 2018" , "September 6" ;
+        <ex:description>   "When best friends break a blood oath" , " one of them is cast away to hell" , " and the other two must save him from the misfits of the underworld." ;
+        <ex:director>      " Ross R. Shuman" , "Tom Gianas" ;
+        <ex:duration>      "86 min" ;
+        <ex:listed_in>     "Action & Adventure" , " Independent Movies" , " Comedies" ;
+        <ex:rating>        "R" ;
+        <ex:release_year>  "2015" ;
+        <ex:type>          "Movie" .
+<ex:PK>  a                 <rdfs:tvshow> ;
+        <ex:cast>          " Rukhsar" , " Saurabh Shukla" , " Sushant Singh Rajput" , " Sanjay Dutt" , "Aamir Khan" , " Parikshat Sahni" , " Boman Irani" , " Anuskha Sharma" ;
+        <ex:country>       "India" ;
+        <ex:date_added>    " 2018" , "September 6" ;
+        <ex:description>   "Aamir Khan teams with director Rajkumar Hirani to play a social crusader in a political satire on the state of corruption in India." ;
+        <ex:director>      "Rajkumar Hirani" ;
+        <ex:duration>      "146 min" ;
+        <ex:listed_in>     " International Movies" , " Dramas" , "Comedies" ;
+        <ex:rating>        "TV-14" ;
+        <ex:release_year>  "2014" ;
+        <ex:type>          "Movie" .
+<ex:Hard Tide>  a          <rdfs:tvshow> ;
+        <ex:cast>          "Nathanael Wiseman" , " Andy Lucas" , " Kat Gellin" , " Beverly Hills" , " Oliver Stark" , " Alexandra Newick" , " Mem Ferda" , " Ralph Brown" ;
+        <ex:country>       "United Kingdom" ;
+        <ex:date_added>    "September 6" , " 2017" ;
+        <ex:description>   "A drug dealer who's been emulating his father's successful criminal career is forced to go on the run with a young girl in this fact-based thriller." ;
+        <ex:director>      "Robert Osman" , " Nathanael Wiseman" ;
+        <ex:duration>      "79 min" ;
+        <ex:listed_in>     "Dramas" , " Independent Movies" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2015" ;
+        <ex:type>          "Movie" .
+<ex:Elstree 1976>  a       <rdfs:tvshow> ;
+        <ex:cast>          " Anthony Forrest" , " Derek Lyons" , " Jeremy Bulloch" , " Garrick Hagon" , " John Chapman" , " Angus MacInnes" , " Laurie Goode" , " Pam Rose" , "Paul Blake" , " David Prowse" ;
+        <ex:country>       "United Kingdom" ;
+        <ex:date_added>    " 2016" , "September 6" ;
+        <ex:description>   "Then and now footage of bit players who appeared in \"Star Wars\" tells the story of how the film and its legions of fans changed their lives forever." ;
+        <ex:director>      "Jon Spira" ;
+        <ex:duration>      "102 min" ;
+        <ex:listed_in>     "Documentaries" ;
+        <ex:rating>        "TV-PG" ;
+        <ex:release_year>  "2015" ;
+        <ex:type>          "Movie" .
+<ex:American Factory: A Conversation with the Obamas>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          " Julia Reichert" , "President Barack Obama" , " Steven Bognar" , " Michelle Obama" ;
+        <ex:country>       "" ;
+        <ex:date_added>    "September 5" , " 2019" ;
+        <ex:description>   "Barack and Michelle Obama talk with directors Steven Bognar and Julia Reichert about the documentary and the importance of storytelling." ;
+        <ex:director>      "" ;
+        <ex:duration>      "10 min" ;
+        <ex:listed_in>     "Documentaries" ;
+        <ex:rating>        "TV-G" ;
+        <ex:release_year>  "2019" ;
+        <ex:type>          "Movie" .
+<ex:ATM>  a                <rdfs:tvshow> ;
+        <ex:cast>          " Gornpop Janjaroen" , " Puttachat Pongsuchat" , " Thawat Pornrattanaprasert" , " Pongsatorn Jongwilak" , " Yanee Tramoth" , " Pongkool Suebsung" , "Chantavit Dhanasevi" , " Preechaya Pongthananikorn" , " Chaleumpol Tikumpornteerawong" , " Sananthachat Thanapatpisal" ;
+        <ex:country>       "United States" , " Canada" ;
+        <ex:date_added>    " 2018" , "September 5" ;
+        <ex:description>   " a couple who works at the bank vies to see who can recover the most cash – and the loser must find a new job." , "When a broken ATM dishes out a fortune" ;
+        <ex:director>      "Mez Tharatorn" ;
+        <ex:duration>      "122 min" ;
+        <ex:listed_in>     " International Movies" , " Romantic Movies" , "Comedies" ;
+        <ex:rating>        "TV-14" ;
+        <ex:release_year>  "2012" ;
+        <ex:type>          "Movie" .
+<ex:Bangkok Traffic (Love) Story>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          " Sirin Horwang" , " Taksaorn Paksukcharern" , " Panissara Phimpru" , "Theeradej Wongpuapan" , " Charlie Trairat" , " Ungsumalynn Sirapatsakmetha" , " Kazuki Yano" ;
+        <ex:country>       "Thailand" ;
+        <ex:date_added>    "September 5" , " 2018" ;
+        <ex:description>   "After an encounter with an engineer working the night shift for the city train" , " a 30-year-old woman struggles against all odds to pursue true love." ;
+        <ex:director>      "Adisorn Tresirikasem" ;
+        <ex:duration>      "126 min" ;
+        <ex:listed_in>     " Romantic Movies" , "Comedies" , " International Movies" ;
+        <ex:rating>        "TV-14" ;
+        <ex:release_year>  "2009" ;
+        <ex:type>          "Movie" .
+<ex:I Fine... Thank You... Love You>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          " Sunny Suwanmethanont" , " Popetorn Soonthornyanakij" , "Preechaya Pongthananikorn" , " Sora Aoi" , " Puttachat Pongsuchat" ;
+        <ex:country>       "Thailand" ;
+        <ex:date_added>    "September 5" , " 2018" ;
+        <ex:description>   "Desperate to go to the U.S. to win back his girlfriend" , " Yim hires a tutor to teach him English. But things don't go according to plan." ;
+        <ex:director>      "Mez Tharatorn" ;
+        <ex:duration>      "116 min" ;
+        <ex:listed_in>     "Comedies" , " Romantic Movies" , " International Movies" ;
+        <ex:rating>        "TV-14" ;
+        <ex:release_year>  "2014" ;
+        <ex:type>          "Movie" .
+<ex:One Day>  a            <rdfs:tvshow> ;
+        <ex:cast>          " Nittha Jirayungyurn" , " Somyos Matures" , " Prim Bulakul" , " Kris Srepoomseth" , " Kaz Sawamura" , " Rermthon Kemapech" , " Theerapat Sajakul" , " Sutthatip Wutichaipradit" , "Chantavit Dhanasevi" ;
+        <ex:country>       "Thailand" ;
+        <ex:date_added>    "September 5" , " 2018" ;
+        <ex:description>   " an overlooked geek seizes the chance to make an impression before she remembers again." , "When his colleague (and crush) temporarily loses her memory" ;
+        <ex:director>      "Banjong Pisanthanakun" ;
+        <ex:duration>      "135 min" ;
+        <ex:listed_in>     " International Movies" , " Romantic Movies" , "Dramas" ;
+        <ex:rating>        "TV-PG" ;
+        <ex:release_year>  "2016" ;
+        <ex:type>          "Movie" .
+<ex:Phobia 2>  a           <rdfs:tvshow> ;
+        <ex:cast>          " Nattapong Chartpong" , " Chumphorn Thepphithak" , " Suteerush Channukool" , " Marsha Wattanapanich" , " Worrawech Danuwong" , " Charlie Trairat" , " Peeratchai Roompol" , " Nicole Theriault" , "Jirayu La-ongmanee" , " Gacha Plienwithi" ;
+        <ex:country>       "Thailand" ;
+        <ex:date_added>    "September 5" , " 2018" ;
+        <ex:description>   " Thai horror masters present five supernatural tales of karma in this sequel to the 4bia anthology." , "From disfiguring punishments to festering souls" ;
+        <ex:director>      " Paween Purikitpanya" , " Parkpoom Wongpoom" , " Songyos Sugmakanan" , "Banjong Pisanthanakun" , " Visute Poolvoralaks" ;
+        <ex:duration>      "125 min" ;
+        <ex:listed_in>     "Horror Movies" , " International Movies" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2009" ;
+        <ex:type>          "Movie" .
+<ex:Shutter>  a            <rdfs:tvshow> ;
+        <ex:cast>          " Kachormsak Naruepatr" , " Unnop Chanpaibool" , " Chachchaya Chalemphol" , " Sivagorn Muttamara" , "Ananda Everingham" , " Natthaweeranuch Thongmee" , " Titikarn Tongprasearth" , " Achita Sikamana" ;
+        <ex:country>       "Thailand" ;
+        <ex:date_added>    "September 5" , " 2018" ;
+        <ex:description>   " a couple is haunted by more than just the memory of their deadly choice." , "After killing a young girl in a hit-and-run accident" ;
+        <ex:director>      "Banjong Pisanthanakun" , " Parkpoom Wongpoom" ;
+        <ex:duration>      "96 min" ;
+        <ex:listed_in>     "Horror Movies" , " International Movies" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2004" ;
+        <ex:type>          "Movie" .
+<ex:Suckseed>  a           <rdfs:tvshow> ;
+        <ex:cast>          " Nattasha Nauljam" , "Jirayu La-ongmanee" , " Thawat Pornrattanaprasert" , " Pachara Chirathivat" ;
+        <ex:country>       "Thailand" ;
+        <ex:date_added>    "September 5" , " 2018" ;
+        <ex:description>   "When his boyhood crush Ern returns" , " Ped forms a band with his friend to impress her. Romantic rivalries bloom after the talented Ern joins the group." ;
+        <ex:director>      "Chayanop Boonprakob" ;
+        <ex:duration>      "130 min" ;
+        <ex:listed_in>     " International Movies" , "Comedies" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2011" ;
+        <ex:type>          "Movie" .
+<ex:Carrie Pilby>  a       <rdfs:tvshow> ;
+        <ex:cast>          " Nathan Lane" , " Gabriel Byrne" , " Desmin Borges" , " Vanessa Bayer" , "Bel Powley" , " William Moseley" , " Colin O'Donoghue" , " Jason Ritter" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    "September 5" , " 2017" ;
+        <ex:description>   "A socially awkward 19-year-old genius makes big plans to step out of her shell and make a friend" , " get a job and – maybe – even go on a date." ;
+        <ex:director>      "Susan Johnson" ;
+        <ex:duration>      "98 min" ;
+        <ex:listed_in>     " Dramas" , "Comedies" ;
+        <ex:rating>        "TV-14" ;
+        <ex:release_year>  "2016" ;
+        <ex:type>          "Movie" .
+<ex:Marc Maron: Too Real>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          "Marc Maron" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    "September 5" , " 2017" ;
+        <ex:description>   " mortality" , "Battle-scarred stand-up comedian Marc Maron unleashes a storm of ideas about meditation" , " documentary films and our weird modern world." ;
+        <ex:director>      "Lynn Shelton" ;
+        <ex:duration>      "70 min" ;
+        <ex:listed_in>     "Stand-Up Comedy" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2017" ;
+        <ex:type>          "Movie" .
+<ex:No Tomorrow>  a        <rdfs:tvshow> ;
+        <ex:cast>          "Joshua Sasse" , " Tori Anderson" , " Amy Pietz" , " Jesse Rath" , " Jonathan Langdon" , " Sarayu Blue" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    "September 5" , " 2017" ;
+        <ex:description>   " Evie discovers a new freedom – even though her man just might be an end-of-days crackpot." , "Her straitjacketed life turned topsy-turvy by hunky Xavier" ;
+        <ex:director>      "" ;
+        <ex:duration>      "1 Season" ;
+        <ex:listed_in>     " TV Dramas" , "Romantic TV Shows" , " TV Comedies" ;
+        <ex:rating>        "TV-14" ;
+        <ex:release_year>  "2016" ;
+        <ex:type>          "TV Show" .
+<ex:Saawan>  a             <rdfs:tvshow> ;
+        <ex:cast>          " Imran Aslam" , " Ali Hafiz" , " Daniyal Yousuf" , " Sohail Malik" , " Arif Bahlim" , " Saleem Mairaj" , " Najiba Faiz" , "Karam Hussain" ;
+        <ex:country>       "Pakistan" ;
+        <ex:date_added>    "September 4" , " 2019" ;
+        <ex:description>   "Outcast from society and left to die in the wilderness" , " a young boy with polio embarks on a journey to connect with his mother. Based on a true story." ;
+        <ex:director>      "Farhan Alam" ;
+        <ex:duration>      "128 min" ;
+        <ex:listed_in>     " International Movies" , " Independent Movies" , "Dramas" ;
+        <ex:rating>        "TV-14" ;
+        <ex:release_year>  "2016" ;
+        <ex:type>          "Movie" .
+<ex:The Heretics>  a       <rdfs:tvshow> ;
+        <ex:cast>          " Will King" , "Nina Kiri" , " Jorja Cadence" , " Ry Barrett" , " Nina Richmond" ;
+        <ex:country>       "Canada" ;
+        <ex:date_added>    "September 4" , " 2019" ;
+        <ex:description>   "A withdrawn young woman hunted by a malicious cult is abducted by a brooding stranger and undergoes a bizarre transformation." ;
+        <ex:director>      "Chad Archibald" ;
+        <ex:duration>      "88 min" ;
+        <ex:listed_in>     "Horror Movies" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2017" ;
+        <ex:type>          "Movie" .
+<ex:The World We Make>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          "Caleb Castille" , " Kevin Sizemore" , " Rose Reid" , " Gregory Alan Williams" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    "September 4" , " 2019" ;
+        <ex:description>   " but simmering racism in their small town puts their relationship to the test." , "A teenage equestrian and a local football player for each other" ;
+        <ex:director>      "Brian Baugh" ;
+        <ex:duration>      "108 min" ;
+        <ex:listed_in>     " Romantic Movies" , "Dramas" ;
+        <ex:rating>        "PG" ;
+        <ex:release_year>  "2019" ;
+        <ex:type>          "Movie" .
+<ex:Watchman>  a           <rdfs:tvshow> ;
+        <ex:cast>          " Raj Arjun" , " Munishkanth" , " Samyuktha Hegde" , " Yogi Babu" , " Suman" , "G.V. Prakash Kumar" ;
+        <ex:country>       "India" ;
+        <ex:date_added>    " 2019" , "September 4" ;
+        <ex:description>   " a young man breaks into a bungalow to steal the cash" , " unprepared for the dog standing guard – or the trouble inside." , "Rushing to pay off a loan shark" ;
+        <ex:director>      "A. L. Vijay" ;
+        <ex:duration>      "93 min" ;
+        <ex:listed_in>     " International Movies" , "Comedies" , " Dramas" ;
+        <ex:rating>        "TV-14" ;
+        <ex:release_year>  "2019" ;
+        <ex:type>          "Movie" .
+<ex:Black Panther>  a      <rdfs:tvshow> ;
+        <ex:cast>          " Martin Freeman" , " David S. Lee" , " Sterling K. Brown" , " John Kani" , " Angela Bassett" , " Andy Serkis" , " Stan Lee" , " Winston Duke" , " Danai Gurira" , " Forest Whitaker" , " Letitia Wright" , " Lupita Nyong'o" , " Florence Kasumba" , "Chadwick Boseman" , " Daniel Kaluuya" , " Michael B. Jordan" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    " 2018" , "September 4" ;
+        <ex:description>   " highly advanced African nation of Wakanda" , "T'Challa" , " strives to protect his home from enemies old and new." , " the superpowered new leader of the hidden" ;
+        <ex:director>      "Ryan Coogler" ;
+        <ex:duration>      "135 min" ;
+        <ex:listed_in>     " Sci-Fi & Fantasy" , "Action & Adventure" ;
+        <ex:rating>        "PG-13" ;
+        <ex:release_year>  "2018" ;
+        <ex:type>          "Movie" .
+<ex:Man Up>  a             <rdfs:tvshow> ;
+        <ex:cast>          " Henry Lloyd-Hughes" , " Simon Pegg" , " Sharon Horgan" , " Rory Kinnear" , " Ken Stott" , " Olivia Williams" , " Phoebe Waller-Bridge" , " Harriet Walter" , "Lake Bell" , " Ophelia Lovibond" , " Dean-Charles Chapman" , " Stephen Campbell Moore" ;
+        <ex:country>       " France" , "United Kingdom" ;
+        <ex:date_added>    " 2018" , "September 4" ;
+        <ex:description>   " while standing under a train station clock" , "A single woman seizes an opportunity when" , " she meets a stranger who mistakes her for his blind date." ;
+        <ex:director>      "Ben Palmer" ;
+        <ex:duration>      "88 min" ;
+        <ex:listed_in>     " International Movies" , "Comedies" , " Romantic Movies" ;
+        <ex:rating>        "R" ;
+        <ex:release_year>  "2015" ;
+        <ex:type>          "Movie" .
+<ex:Frequency>  a          <rdfs:tvshow> ;
+        <ex:cast>          " Lenny Jacobson" , " Daniel Bonjour" , " Mekhi Phifer" , "Peyton List" , " Devin Kelley" , " Riley Smith" , " Anthony Ruivivar" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    "September 4" , " 2017" ;
+        <ex:description>   "A detective seizes a precious opportunity to change the past when she finds she can communicate with her deceased" , " estranged father via a time warp." ;
+        <ex:director>      "" ;
+        <ex:duration>      "1 Season" ;
+        <ex:listed_in>     " TV Mysteries" , " TV Dramas" , "Crime TV Shows" ;
+        <ex:rating>        "TV-14" ;
+        <ex:release_year>  "2016" ;
+        <ex:type>          "TV Show" .
+<ex:Mo Gilligan: Momentum>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          "Mo Gilligan" ;
+        <ex:country>       "United Kingdom" ;
+        <ex:date_added>    "September 30" , " 2019" ;
+        <ex:description>   "Comedian Mo Gilligan blends smooth moves and sharp humor as he riffs on humble beginnings" , " family dynamics and the complex art of dancing in the club." ;
+        <ex:director>      "Chris Howe" ;
+        <ex:duration>      "64 min" ;
+        <ex:listed_in>     "Stand-Up Comedy" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2019" ;
+        <ex:type>          "Movie" .
+<ex:Adam Ruins Everything>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          " Adam Lustick" , " Emily Axford" , "Adam Conover" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    "September 30" , " 2018" ;
+        <ex:description>   " deconstructs topics and leaves with positive takeaways." , "Education can be fun – and funny. Comedian Adam Conover bursts misconceptions" ;
+        <ex:director>      "" ;
+        <ex:duration>      "1 Season" ;
+        <ex:listed_in>     "TV Comedies" ;
+        <ex:rating>        "TV-14" ;
+        <ex:release_year>  "2018" ;
+        <ex:type>          "TV Show" .
+<ex:Ben 10>  a             <rdfs:tvshow> ;
+        <ex:cast>          " David Kaye" , " Roger Craig Smith" , "Tara Strong" , " Montse Hernandez" , " Daryl Sabara" , " Todd Haberkorn" , " Dwight Schultz" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    "September 30" , " 2018" ;
+        <ex:description>   "Ben can transform into ten types of aliens. He'll try 'em all while adventuring across the country with his cousin Gwen and Grandpa Max." ;
+        <ex:director>      "" ;
+        <ex:duration>      "1 Season" ;
+        <ex:listed_in>     "Kids' TV" ;
+        <ex:rating>        "TV-Y7" ;
+        <ex:release_year>  "2016" ;
+        <ex:type>          "TV Show" .
+<ex:Big Miracle>  a        <rdfs:tvshow> ;
+        <ex:cast>          " Kristen Bell" , " Ted Danson" , " Rob Riggle" , " Vinessa Shaw" , " Michael Gaston" , " Dermot Mulroney" , "Drew Barrymore" , " John Krasinski" , " Tim Blake Nelson" , " Stephen Root" ;
+        <ex:country>       "United States" , " United Kingdom" ;
+        <ex:date_added>    "September 30" , " 2018" ;
+        <ex:description>   "After a reporter writes about whales trapped in the Arctic Circle" , " the U.S. and U.S.S.R. team up to rescue them in this tale inspired by true events." ;
+        <ex:director>      "Ken Kwapis" ;
+        <ex:duration>      "107 min" ;
+        <ex:listed_in>     " Dramas" , "Children & Family Movies" ;
+        <ex:rating>        "PG" ;
+        <ex:release_year>  "2012" ;
+        <ex:type>          "Movie" .
+<ex:Christiane Amanpour: Sex & Love Around the World>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          "" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    " 2018" , "September 30" ;
+        <ex:description>   " acculturated dive into how adults in six" , " big global cities celebrate love and accentuate sex. CNN's Christiane Amanpour reports." , "A contextual" ;
+        <ex:director>      "" ;
+        <ex:duration>      "1 Season" ;
+        <ex:listed_in>     "Docuseries" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2018" ;
+        <ex:type>          "TV Show" .
+<ex:The Eighties>  a       <rdfs:tvshow> ;
+        <ex:cast>          "" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    " 2018" , "September 30" ;
+        <ex:description>   "This nostalgic documentary series relives the 1980s from a variety of angles" , " exploring its impact on the politics" , " technology and culture of today." ;
+        <ex:director>      "" ;
+        <ex:duration>      "1 Season" ;
+        <ex:listed_in>     "Docuseries" ;
+        <ex:rating>        "TV-PG" ;
+        <ex:release_year>  "2016" ;
+        <ex:type>          "TV Show" .
+<ex:The Nineties>  a       <rdfs:tvshow> ;
+        <ex:cast>          "" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    " 2018" , "September 30" ;
+        <ex:description>   "This U.S.-focused series dives into the cultural and political changes that swept the last decade of the 20th century. Executive produced by Tom Hanks." ;
+        <ex:director>      "" ;
+        <ex:duration>      "1 Season" ;
+        <ex:listed_in>     "Docuseries" ;
+        <ex:rating>        "TV-14" ;
+        <ex:release_year>  "2017" ;
+        <ex:type>          "TV Show" .
+<ex:The Seventies>  a      <rdfs:tvshow> ;
+        <ex:cast>          "" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    " 2018" , "September 30" ;
+        <ex:description>   " focusing on the major political and historical landmarks of the decade and the cultural response to those events." , "This series examines 1970s America" ;
+        <ex:director>      "" ;
+        <ex:duration>      "1 Season" ;
+        <ex:listed_in>     "Docuseries" ;
+        <ex:rating>        "TV-PG" ;
+        <ex:release_year>  "2015" ;
+        <ex:type>          "TV Show" .
+<ex:We Bare Bears>  a      <rdfs:tvshow> ;
+        <ex:cast>          "Eric Edelstein" , " Demetri Martin" , " Bobby Moynihan" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    "September 30" , " 2018" ;
+        <ex:description>   " Panda and Ice Bear are three adopted bear brothers struggling against their animal instincts to fit into the civilized" , " modern human world." , "Grizzly" ;
+        <ex:director>      "" ;
+        <ex:duration>      "1 Season" ;
+        <ex:listed_in>     " TV Comedies" , "Kids' TV" ;
+        <ex:rating>        "TV-Y7" ;
+        <ex:release_year>  "2017" ;
+        <ex:type>          "TV Show" .
+<ex:The Mayor>  a          <rdfs:tvshow> ;
+        <ex:cast>          " Sun-gyu Jin" , " Eun-kyung Shim" , " Do-won Kwak" , " Byeong-eun Park" , " Hye-young Ryu" , " Joo-yeon Lee" , " So-ri Moon" , "Min-sik Choi" , " Mi-ran Ra" , " Ki Hong Lee" ;
+        <ex:country>       "South Korea" ;
+        <ex:date_added>    " 2017" , "September 30" ;
+        <ex:description>   " the incumbent mayor of Seoul runs for an unprecedented third term – and will stop at nothing to keep his secrets hidden." , "With the presidency in mind" ;
+        <ex:director>      "Park In-je" ;
+        <ex:duration>      "130 min" ;
+        <ex:listed_in>     "Dramas" , " International Movies" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2017" ;
+        <ex:type>          "Movie" .
+<ex:The Royal House of Windsor>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          "" ;
+        <ex:country>       "United Kingdom" ;
+        <ex:date_added>    " 2017" , "September 30" ;
+        <ex:description>   " politics and more." , "Drawing on newly available info" , " this show traces how the British royal family has survived the last 100 years of power struggles" ;
+        <ex:director>      "" ;
+        <ex:duration>      "1 Season" ;
+        <ex:listed_in>     " Docuseries" , " International TV Shows" , "British TV Shows" ;
+        <ex:rating>        "TV-14" ;
+        <ex:release_year>  "2017" ;
+        <ex:type>          "TV Show" .
+<ex:Amanda Knox>  a        <rdfs:tvshow> ;
+        <ex:cast>          "" ;
+        <ex:country>       " United States" , "Denmark" ;
+        <ex:date_added>    "September 30" , " 2016" ;
+        <ex:description>   "She was twice convicted and acquitted of murder. Amanda Knox and the people closest to her case speak out in this illuminating documentary." ;
+        <ex:director>      " Brian McGinn" , "Rod Blackhurst" ;
+        <ex:duration>      "92 min" ;
+        <ex:listed_in>     "Documentaries" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2016" ;
+        <ex:type>          "Movie" .
+<ex:Lovesick>  a           <rdfs:tvshow> ;
+        <ex:cast>          " Nuchanart Veerakaarn" , " Charnmanoon Pannin" , " Luangsodsai Anupart" , " Ausavaterakul Ausavapat" , " Sirikiet Saejea" , " Nontapan Chuenwarin" , " Chindavanich Primrose" , " Nungira Hanwutinanon" , "Kongyingyong Chonlathorn" , " Phumphothingam Nawat" ;
+        <ex:country>       "" ;
+        <ex:date_added>    "September 3" , " 2018" ;
+        <ex:description>   "Love and academics get complicated at an all-male college that happens to be located next to an all-female high school." ;
+        <ex:director>      "" ;
+        <ex:duration>      "1 Season" ;
+        <ex:listed_in>     " TV Dramas" , " Romantic TV Shows" , "International TV Shows" ;
+        <ex:rating>        "TV-14" ;
+        <ex:release_year>  "2014" ;
+        <ex:type>          "TV Show" .
+<ex:The Debt Collector>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          " Tony Todd" , " Rachel Brann" , " Michael Paré" , " Louis Mandylor" , " Selina Lo" , "Scott Adkins" , " Vladimir Kulich" ;
+        <ex:country>       "United Kingdom" , " United States" ;
+        <ex:date_added>    " 2018" , "September 3" ;
+        <ex:description>   " who pairs him with a veteran thug for a weekend of fisticuffs-fueled debt collection." , "A broke martial arts instructor takes a side gig with a mobster" ;
+        <ex:director>      "Jesse V. Johnson" ;
+        <ex:duration>      "96 min" ;
+        <ex:listed_in>     "Action & Adventure" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2018" ;
+        <ex:type>          "Movie" .
+<ex:Act of Vengeance>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          " Danny Glover" , " Mustafa Sandal" , " Robert Patrick" , " Mahsun Kırmızıgül" , " Gina Gershon" , "Haluk Bilginer" , " Sharrieff Pugh" , " Engin Altan Düzyatan" , " Scott William Winters" ;
+        <ex:country>       " United States" , "Turkey" ;
+        <ex:date_added>    "September 29" , " 2018" ;
+        <ex:description>   "Two Turkish agents are sent to New York City on a mission to capture a notorious terrorist known only as \"Dejjal\" (Arabic for Antichrist)." ;
+        <ex:director>      "Mahsun Kırmızıgül" ;
+        <ex:duration>      "112 min" ;
+        <ex:listed_in>     "Action & Adventure" , " International Movies" ;
+        <ex:rating>        "NR" ;
+        <ex:release_year>  "2010" ;
+        <ex:type>          "Movie" .
+<ex:Paradise Lost>  a      <rdfs:tvshow> ;
+        <ex:cast>          " Julia Konrad" , " Marjorie Estiano" , " Humberto Carrão" , " Felipe Abib" , " Erasmo Carlos" , "Júlio Andrade" , " Lee Taylor" , " Seu Jorge" , " Malu Galli" , " Jaloo" , " Hermila Guedes" ;
+        <ex:country>       "Brazil" ;
+        <ex:date_added>    "September 29" , " 2018" ;
+        <ex:description>   " and grows closer to the family of misfit singers that perform there." , "A cop moonlights as the bodyguard for a young drag queen at a nightclub" ;
+        <ex:director>      "Monique Gardenberg" ;
+        <ex:duration>      "111 min" ;
+        <ex:listed_in>     "Dramas" , " Independent Movies" , " International Movies" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2018" ;
+        <ex:type>          "Movie" .
+<ex:Gerald's Game>  a      <rdfs:tvshow> ;
+        <ex:cast>          " Chiara Aurelia" , " Bruce Greenwood" , "Carla Gugino" , " Carel Struycken" , " Henry Thomas" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    " 2017" , "September 29" ;
+        <ex:description>   "When her husband's sex game goes wrong" , " dark secrets and a dire choice." , " Jessie – handcuffed to a bed in a remote lake house – faces warped visions" ;
+        <ex:director>      "Mike Flanagan" ;
+        <ex:duration>      "103 min" ;
+        <ex:listed_in>     "Horror Movies" , " Thrillers" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2017" ;
+        <ex:type>          "Movie" .
+<ex:Long Shot>  a          <rdfs:tvshow> ;
+        <ex:cast>          "" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    " 2017" , "September 29" ;
+        <ex:description>   " he builds his case for innocence around raw footage from a popular TV show. A documentary." , "When Juan Catalan is arrested for a murder he didn't commit" ;
+        <ex:director>      "Jacob LaMendola" ;
+        <ex:duration>      "40 min" ;
+        <ex:listed_in>     "Documentaries" ;
+        <ex:rating>        "TV-14" ;
+        <ex:release_year>  "2017" ;
+        <ex:type>          "Movie" .
+<ex:Mak Cun>  a            <rdfs:tvshow> ;
+        <ex:cast>          "Erma Fatima" , " Rahim Razali" , " Nora Danish" , " Umie Aida" ;
+        <ex:country>       "" ;
+        <ex:date_added>    " 2017" , "September 29" ;
+        <ex:description>   "A woman with an entrepreneurial spirit takes life into her own hands by starting a beauty cream business that inspires other women to take chances." ;
+        <ex:director>      "" ;
+        <ex:duration>      "1 Season" ;
+        <ex:listed_in>     " TV Comedies" , "International TV Shows" , " TV Dramas" ;
+        <ex:rating>        "TV-PG" ;
+        <ex:release_year>  "2015" ;
+        <ex:type>          "TV Show" .
+<ex:Our Souls at Night>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          " Phyllis Somerville" , " Matthias Schoenaerts" , "Robert Redford" , " Judy Greer" , " Jane Fonda" , " Bruce Dern" , " Iain Armitage" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    "September 29" , " 2017" ;
+        <ex:description>   " a real romance begins to blossom." , "After widowed neighbors Addie and Louis begin sleeping in bed together platonically to alleviate their loneliness" ;
+        <ex:director>      "Ritesh Batra" ;
+        <ex:duration>      "103 min" ;
+        <ex:listed_in>     "Dramas" , " Romantic Movies" ;
+        <ex:rating>        "TV-14" ;
+        <ex:release_year>  "2017" ;
+        <ex:type>          "Movie" .
+<ex:Out of Thin Air>  a    <rdfs:tvshow> ;
+        <ex:cast>          "" ;
+        <ex:country>       "" ;
+        <ex:date_added>    " 2017" , "September 29" ;
+        <ex:description>   " this chilling documentary proves confessions can’t always be trusted." , "Picking up 40 years after six were convicted for two strange murders in Iceland" ;
+        <ex:director>      "Dylan Howitt" ;
+        <ex:duration>      "85 min" ;
+        <ex:listed_in>     " International Movies" , "Documentaries" ;
+        <ex:rating>        "TV-14" ;
+        <ex:release_year>  "2017" ;
+        <ex:type>          "Movie" .
+<ex:Paul Hollywood's Big Continental Road Trip>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          "Paul Hollywood" ;
+        <ex:country>       "United Kingdom" ;
+        <ex:date_added>    "September 29" , " 2017" ;
+        <ex:description>   "Gear up for a fast-paced journey as celebrity chef and avid auto enthusiast Paul Hollywood takes in the cars and culture of France" , " Italy and Germany." ;
+        <ex:director>      "" ;
+        <ex:duration>      "1 Season" ;
+        <ex:listed_in>     " International TV Shows" , " Docuseries" , "British TV Shows" ;
+        <ex:rating>        "TV-14" ;
+        <ex:release_year>  "2017" ;
+        <ex:type>          "TV Show" .
+<ex:Satu Hari>  a          <rdfs:tvshow> ;
+        <ex:cast>          " Rita Rudaini" , " Miller Khan" , "Sara Ali" , " Hafizul Kamal" , " Remy Ishak" , " Mirza Salihovic" ;
+        <ex:country>       "" ;
+        <ex:date_added>    " 2017" , "September 29" ;
+        <ex:description>   "A man haunted by his wife's affair moves to Sarajevo and starts to love again" , " until fate forces him to choose between his new life and old loyalty." ;
+        <ex:director>      "" ;
+        <ex:duration>      "1 Season" ;
+        <ex:listed_in>     " TV Dramas" , "International TV Shows" ;
+        <ex:rating>        "TV-14" ;
+        <ex:release_year>  "2014" ;
+        <ex:type>          "TV Show" .
+<ex:Monster High: Boo York, Boo York>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          " Rachel Staman" , " TJ Smith" , "Karen Strassman" , " America Young" , " Wendee Lee" , " Celeste Henderson" , " Laura Bailey" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    " 2015" , "September 29" ;
+        <ex:description>   "Cleo is invited to a gala in the big city celebrating a magical comet and brings her best friends along. But the sinister Nefera has other plans." ;
+        <ex:director>      "William Lau" ;
+        <ex:duration>      "72 min" ;
+        <ex:listed_in>     " Music & Musicals" , "Children & Family Movies" ;
+        <ex:rating>        "TV-Y7" ;
+        <ex:release_year>  "2015" ;
+        <ex:type>          "Movie" .
+<ex:Cultivating the Seas: History and Future of the Full-Cycle Cultured Kindai Tuna>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          "" ;
+        <ex:country>       "" ;
+        <ex:date_added>    "September 28" , " 2019" ;
+        <ex:description>   "An in-depth look at the full-cycle breeding program for bluefin Kindai tuna pioneered by Kinki University’s Aqua Culture Research Institute." ;
+        <ex:director>      "Mana Yasuda" ;
+        <ex:duration>      "45 min" ;
+        <ex:listed_in>     "Documentaries" , " International Movies" ;
+        <ex:rating>        "TV-G" ;
+        <ex:release_year>  "2019" ;
+        <ex:type>          "Movie" .
+<ex:Domino>  a             <rdfs:tvshow> ;
+        <ex:cast>          " Mohammed Azaay" , " Søren Malling" , " Eriq Ebouaney" , " Paprika Steen" , " Guy Pearce" , "Nikolaj Coster-Waldau" , " Carice van Houten" , " Helena Kaittani" ;
+        <ex:country>       " France" , " Belgium" , " Netherlands" , "Denmark" , " Italy" ;
+        <ex:date_added>    "September 28" , " 2019" ;
+        <ex:description>   "A Copenhagen police officer hunts for the man who attacked his partner" , " only to stumble into a high-stakes game of espionage." ;
+        <ex:director>      "Brian De Palma" ;
+        <ex:duration>      "89 min" ;
+        <ex:listed_in>     "International Movies" , " Thrillers" ;
+        <ex:rating>        "R" ;
+        <ex:release_year>  "2019" ;
+        <ex:type>          "Movie" .
+<ex:TUNA GIRL>  a          <rdfs:tvshow> ;
+        <ex:cast>          "Fuka Koshiba" , " Tom Fujita" , " Hiroto Kanai" , " Shuri Tanaka" , " Chal Inoue" , " Ryosuke Yusa" , " Takeshi Masu" , " Hidetoshi Hoshida" , " Takashi Taniguchi" ;
+        <ex:country>       "" ;
+        <ex:date_added>    " 2019" , "September 28" ;
+        <ex:description>   "A clumsy but cheerful fisheries student struggles to find her place at a research institute renowned for its tuna cultivation. The work isn't easy." ;
+        <ex:director>      "Mana Yasuda" ;
+        <ex:duration>      "90 min" ;
+        <ex:listed_in>     "Dramas" , " International Movies" ;
+        <ex:rating>        "TV-PG" ;
+        <ex:release_year>  "2019" ;
+        <ex:type>          "Movie" .
+<ex:5CM>  a                <rdfs:tvshow> ;
+        <ex:cast>          "Herjunot Ali" , " Denny Sumargo" , " Firrina Sinatrya" , " Didi Petet" , " Raline Shah" , " Saykoji" , " Fedi Nuril" , " Pevita Pearce" ;
+        <ex:country>       "Indonesia" ;
+        <ex:date_added>    " 2018" , "September 28" ;
+        <ex:description>   " overcoming obstacles on the way and discovering the true meaning of friendship." , "Five friends embark on a mission to climb the highest peak in Java" ;
+        <ex:director>      "Rizal Mantovani" ;
+        <ex:duration>      "126 min" ;
+        <ex:listed_in>     "Dramas" , " International Movies" ;
+        <ex:rating>        "TV-14" ;
+        <ex:release_year>  "2012" ;
+        <ex:type>          "Movie" .
+<ex:Animal World>  a       <rdfs:tvshow> ;
+        <ex:cast>          " Ge Wang" , " Bingkun Cao" , " Michael Douglas" , " Su Ke" , " Zhou Dongyu" , " Zhang Jungyi" , " Yijuan Li" , " Keanu Chi" , "Li Yi Feng" ;
+        <ex:country>       "China" ;
+        <ex:date_added>    " 2018" , "September 28" ;
+        <ex:description>   "An unlucky" , " debt-ridden teen resorts to his math skills when he's forced into a deadly tournament of rock-paper-scissors run by a diabolical host." ;
+        <ex:director>      "Han Yan" ;
+        <ex:duration>      "130 min" ;
+        <ex:listed_in>     "Action & Adventure" , " Sci-Fi & Fantasy" , " International Movies" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2018" ;
+        <ex:type>          "Movie" .
+<ex:Hold the Dark>  a      <rdfs:tvshow> ;
+        <ex:cast>          " Macon Blair" , " Julian Black Antelope" , " James Badge Dale" , " Alexander Skarsgård" , " Jonathan Whitesell" , " Riley Keough" , " Peter McRobbie" , "Jeffrey Wright" , " Tantoo Cardinal" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    "September 28" , " 2018" ;
+        <ex:description>   "In the grim Alaskan winter" , " but he soon finds himself swept into a chilling mystery." , " a naturalist hunts for wolves blamed for killing a local boy" ;
+        <ex:director>      "Jeremy Saulnier" ;
+        <ex:duration>      "126 min" ;
+        <ex:listed_in>     " Dramas" , "Action & Adventure" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2018" ;
+        <ex:type>          "Movie" .
+<ex:Lessons from a School Shooting: Notes from Dunblane>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          "" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    "September 28" , " 2018" ;
+        <ex:description>   " Connecticut – bond over school tragedies that occurred 16 years apart." , " the other from Newtown" , "Two priests – one from Dunblane" , " Scotland" ;
+        <ex:director>      "Kim A. Snyder" ;
+        <ex:duration>      "24 min" ;
+        <ex:listed_in>     "Documentaries" ;
+        <ex:rating>        "TV-PG" ;
+        <ex:release_year>  "2018" ;
+        <ex:type>          "Movie" .
+<ex:Made in Mexico>  a     <rdfs:tvshow> ;
+        <ex:cast>          "" ;
+        <ex:country>       "United States" ;
+        <ex:date_added>    "September 28" , " 2018" ;
+        <ex:description>   " but a peek behind the curtain reveals a tangled web of intrigue" , "These Mexico City socialites may lead opulent lives" , " envy and personal struggles." ;
+        <ex:director>      "" ;
+        <ex:duration>      "1 Season" ;
+        <ex:listed_in>     "International TV Shows" , " Spanish-Language TV Shows" , " Reality TV" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2018" ;
+        <ex:type>          "TV Show" .
+<ex:Single>  a             <rdfs:tvshow> ;
+        <ex:cast>          " Pandji Pragiwaksono" , " Dewi Hughes" , " Annisa Rawles" , " Pevita Pearce" , " Elvira Devinamira" , " Rinna Hassim" , " Chandra Liow" , " Babe Cabita" , " Tinna Harahap" , "Raditya Dika" , " Dede Yusuf" ;
+        <ex:country>       "Indonesia" ;
+        <ex:date_added>    "September 28" , " 2018" ;
+        <ex:description>   "Unemployed and immature" , " a somewhat pathetic bachelor sets his sights on finding a date for the wedding of his younger" , " more successful brother." ;
+        <ex:director>      "Raditya Dika" ;
+        <ex:duration>      "127 min" ;
+        <ex:listed_in>     " Romantic Movies" , "Comedies" , " International Movies" ;
+        <ex:rating>        "TV-PG" ;
+        <ex:release_year>  "2015" ;
+        <ex:type>          "Movie" .
+<ex:The 3rd Eye>  a        <rdfs:tvshow> ;
+        <ex:cast>          " Citra Prima" , "Jessica Mila" , " Afdhal Yusman" , " Denny Sumargo" , " Shofia Shireen" , " Derry Drajat" , " Bianca Hello" , " Epy Kusnandar" , " Voke Victoria" , " Anita Hara" ;
+        <ex:country>       "Indonesia" ;
+        <ex:date_added>    " 2018" , "September 28" ;
+        <ex:description>   " Alia consults a psychic" , " who opens her own eyes to the vengeful ghosts haunting their childhood home." , "When her little sister claims she sees the dead" ;
+        <ex:director>      "Rocky Soraya" ;
+        <ex:duration>      "108 min" ;
+        <ex:listed_in>     " International Movies" , "Horror Movies" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2018" ;
+        <ex:type>          "Movie" .
+<ex:The Sinking Of Van Der Wijck>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          " Reza Rahadian" , " Pevita Pearce" , " Kevin Andrean" , " Gesya Shandy" , " Randy Nidji" , "Herjunot Ali" , " Arzetti Bilbina" ;
+        <ex:country>       "Indonesia" ;
+        <ex:date_added>    "September 28" , " 2018" ;
+        <ex:description>   "When a young man leaves home to fulfill the wishes of his late father" , " he meets and falls in love with a woman from a very different background." ;
+        <ex:director>      "Sunil Soraya" ;
+        <ex:duration>      "163 min" ;
+        <ex:listed_in>     " Romantic Movies" , " International Movies" , "Dramas" ;
+        <ex:rating>        "TV-14" ;
+        <ex:release_year>  "2013" ;
+        <ex:type>          "Movie" .
+<ex:Two Catalonias>  a     <rdfs:tvshow> ;
+        <ex:cast>          "" ;
+        <ex:country>       "Spain" ;
+        <ex:date_added>    "September 28" , " 2018" ;
+        <ex:description>   "Lawmakers and activists with conflicting ideologies speak about the complexities of Catalonia's politics and the fight for its independence from Spain." ;
+        <ex:director>      "Álvaro Longoria" , " Gerardo Olivares" ;
+        <ex:duration>      "117 min" ;
+        <ex:listed_in>     "Documentaries" , " International Movies" ;
+        <ex:rating>        "TV-MA" ;
+        <ex:release_year>  "2018" ;
+        <ex:type>          "Movie" .
+<ex:Bobby Sands: 66 Days>
+        a                  <rdfs:tvshow> ;
+        <ex:cast>          "" ;
+        <ex:country>       " United Kingdom" , "Ireland" ;
+        <ex:date_added>    " 2017" , "September 28" ;
+        <ex:description>   "In 1981" , " an imprisoned Irish Republican Army soldier went on a hunger strike that galvanized his movement and made him a controversial global icon." ;
+        <ex:director>      "Brendan Byrne" ;
+        <ex:duration>      "106 min" ;
+        <ex:listed_in>     "Documentaries" ;
+        <ex:rating>        "TV-14" ;
+        <ex:release_year>  "2016" ;
+        <ex:type>          "Movie" .
